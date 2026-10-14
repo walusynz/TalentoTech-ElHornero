@@ -1,0 +1,376 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header class="cabecera">
+            <a href="index.html" class="cabecera-logo">
+                <img src="assets/images/logo.png" alt="Logo del sitio">
+            </a>
+
+            <form class="busqueda" role="search">
+                <input type="search" placeholder="Buscar materiales, herramientas..." aria-label="Buscar productos">
+                <button type="submit" aria-label="Buscar">⌕</button>
+            </form>
+                <!-- Boton para poner y quitar musica, pendiente
+                para cuando veamos js
+                <audio id="musica-fondo" loop>
+                    <source src="assets/audio/fondo.mp3" type="audio/mpeg">
+                </audio>
+                <button id="boton-musica" class="btn-audio">
+                    <i class="fa-solid fa-music"></i>
+                </button> -->
+                <nav class="navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#reseñas">Reseñas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            
+        </header>
+
+        <main>
+
+            <div class="parte-superior">
+                <div class="parte-superior-texto">
+                    <p style="font-size:32px; text-decoration: underline;"><strong>MATERIALES DE CALIDAD</strong></p>
+
+                    <p style="font-size:24px;">Bienvenido a <strong>El Hornero</strong>, líder en materiales
+                        y productos para la construcción. Ofrecemos todo lo que necesitas para hacer realidad tus proyectos.
+                        <br>
+                        Garantizamos la máxima durabilidad en cada producto para que construyas con total
+                        tranquilidad y seguridad. Explora nuestro catálogo en línea, cotiza en minutos y
+                        recibí tus materiales con la rapidez que tu trabajo
+                        exige.
+                    </p>
+                </div>
+                <video class="video-hornero" autoplay loop muted playsinline>
+                    <source src="assets/videos/video.mp4" type="video/mp4"> Tu navegador no soporta la reproducción
+                    del video.
+                </video>
+            </div>
+            <section id="productos">
+                <p style="font-size: 50px; text-align: center; -webkit-text-stroke: white"><strong>Productos
+                        destacados</strong></p>
+                <div class="contenedor-tarjetas">
+                    <article class="tarjeta">
+                        <img src="assets/images/item1.jpeg" alt="Descripcion del producto">
+                        <h3>Bolsa de cemento</h3>
+                        <p>Bolsa de 50 kg 'El hornero'</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item2.png" alt="Descripcion del producto">
+                        <h3>Carretilla</h3>
+                        <p>Carretilla roja 'El hornero'</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item3.png" alt="Descripcion del producto">
+                        <h3>Ladrillos huecos</h3>
+                        <p>Ladrillos huecos por palet</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item4.png" alt="Descripcion del producto">
+                        <h3>Pala de punta</h3>
+                        <p>Pala de punta El hornero</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item5.png" alt="Descripcion del producto">
+                        <h3>Pala de cemento</h3>
+                        <p>Pala de cemento El hornero</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item6.png" alt="Descripcion del producto">
+                        <h3>Casco de seguridad</h3>
+                        <p>Casco de seguridad amarillo</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item7.png" alt="Descripcion del producto">
+                        <h3>Tejido de acero</h3>
+                        <p>Tejido de acero electrosoldado</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                    <article class="tarjeta">
+                        <img src="assets/images/item8.png" alt="Descripcion del producto">
+                        <h3>Martillo</h3>
+                        <p>Martillo El hornero</p>
+                        <p><strong>Precio: $-</strong></p>
+                        <!-- <i class="fas fa-shopping-cart"></i> -->
+                        <!-- Botón de Agregar al carrito -->
+                        <button type="button" class="btn-carrito">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span>Agregar al carrito</span>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+
+            <section id="reseñas">
+                <p style="font-size: 50px; text-align: center;"><strong>Reseñas
+                        de nuestros clientes
+                    </strong></p>
+                </p>
+
+                <div class="contenedor-reseñas">
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress1.png" alt="Avatar de Marcos" class="avatar-reseña">
+
+                            <div>
+                                <h3>Marcos Quezada</h3>
+                                <span class="fecha-reseña">Hace 2 días</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="5 de 5 estrellas">
+                            ★★★★★
+                        </div>
+
+                        <p class="texto-reseña">
+                            Buena calidad en los productos adquiridos. Recomendado.
+                        </p>
+                    </article>
+
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress2.png" alt="Avatar de Lucía" class="avatar-reseña">
+
+                            <div>
+                                <h3>Lucía Martínez</h3>
+                                <span class="fecha-reseña">Hace 2 días</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="5 de 5 estrellas">
+                            ★★★★★
+                        </div>
+
+                        <p class="texto-reseña">
+                            Una experiencia excelente de principio a fin.
+                            La atención fue impecable, los productos cumplieron con las expectativas
+                            y se destacó especialmente la rapidez con la que llegó el pedido.
+                        </p>
+                    </article>
+
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress3.png" alt="Avatar de Omar" class="avatar-reseña">
+
+                            <div>
+                                <h3>Omar Enrique Lazarte</h3>
+                                <span class="fecha-reseña">Hace 2 días</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="5 de 5 estrellas">
+                            ★★★★☆
+                        </div>
+
+                        <p class="texto-reseña">
+                            Buenos productos.
+                        </p>
+                    </article>
+
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress4.png" alt="Avatar de Carolina" class="avatar-reseña">
+
+                            <div>
+                                <h3>Carolina Paez</h3>
+                                <span class="fecha-reseña">Hace 1 semana</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="4 de 5 estrellas">
+                            ★★★★☆
+                        </div>
+
+                        <p class="texto-reseña">
+                            Buena atención, contestaron todas las dudas sobre cada producto. Recomendado.
+                        </p>
+                    </article>
+
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress5.png" alt="Avatar de Matías" class="avatar-reseña">
+
+                            <div>
+                                <h3>Matías Lopez</h3>
+                                <span class="fecha-reseña">Hace 2 semanas</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="3 de 5 estrellas">
+                            ★★★☆☆
+                        </div>
+
+                        <p class="texto-reseña">
+                            Los productos parecen de buena calidad, pero el pedido demoró mucho en llegar.
+                        </p>
+                    </article>
+
+                    <article class="tarjeta-reseña">
+                        <div class="usuario-reseña">
+                            <img src="assets/images/ress6.png" alt="Avatar de Vanesa" class="avatar-reseña">
+
+                            <div>
+                                <h3>Vanesa Luciana Rojas</h3>
+                                <span class="fecha-reseña">Hace 2 semanas</span>
+                            </div>
+                        </div>
+
+                        <div class="estrellas" aria-label="4 de 5 estrellas">
+                            ★★★★☆
+                        </div>
+
+                        <p class="texto-reseña">
+                            Buenos productos, acordes a su precio.
+                        </p>
+                    </article>
+
+                </div>
+            </section>
+
+            <section id="contacto">
+                <p style="font-size: 50px; text-align: center;"><strong>Contacto</strong></p>
+                <p style="font-size: 30px; text-align: center;"><strong>¿Dudas? ¿Consultas? ¡Escribinos! Te responderemos a
+                        la brevedad.</strong></p>
+
+                <form class="formulario-contacto" action="https://formspree.io/f/xoejnzbv" method="POST">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="name" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="email" placeholder="tu@correo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="message" rows="6" placeholder="Escribí tu mensaje..."
+                            required></textarea>
+                    </div>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </section>
+        </main>
+        <div class="redes-sociales">
+            <p class="redes-titulo" style="text-align: center; font-size: 35px;">¡Seguinos en nuestras redes!</p>
+            <div class="redes-iconos">
+                <a href="error.html" target="_self">
+                    <img src="assets/images/x.png" alt="X" class="icono-redes">
+                </a>
+                <a href="error.html" target="_self">
+                    <img src="assets/images/instagram.png" alt="Instagram" class="icono-redes">
+                </a>
+            </div>
+        </div>
+        <footer>
+            <p style="font-size: 25px; color:lightgoldenrodyellow; text-align: center; background-color: black;
+        margin: 0; padding: 20px 0;">El Hornero es una marca
+                ficticia creada por Miguel Ángel Rodríguez para
+                el curso FrontEnd, de TalentoTech. Año 2026.</p>
+        </footer>
+    </body>
+
+    </html>
