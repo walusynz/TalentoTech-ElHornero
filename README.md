@@ -7,8 +7,6 @@ Su objetivo es presentar productos, mostrar reseñas de los clientes y facilitar
 https://github.com/walusynz/TalentoTech-ElHornero
 ---
 
-[Ver Proyecto en Vivo](https://tu-usuario.github.io/tu-repositorio)
-
 ## 🛠️ Tecnologías Utilizadas
 - HTML5: estructura y diseño
 - CSS: Flexbox, CSS Grid y estilos
