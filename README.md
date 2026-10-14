@@ -3,9 +3,8 @@ El hornero es una página web desarrollada para una tienda de materiales de la c
 Su objetivo es presentar productos, mostrar reseñas de los clientes y facilitar el contacto con potenciales compradores.
 
 ---
-
 ## Repositorio en Github
-
+https://github.com/walusynz/TalentoTech-ElHornero
 ---
 
 [Ver Proyecto en Vivo](https://tu-usuario.github.io/tu-repositorio)
