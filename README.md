@@ -5,6 +5,12 @@ Su objetivo es presentar productos, mostrar reseñas de los clientes y facilitar
 ---
 ## Repositorio en Github
 https://github.com/walusynz/TalentoTech-ElHornero
+
+---
+
+## Visualización en Github pages
+https://walusynz.github.io/TalentoTech-ElHornero/
+
 ---
 
 ## 🛠️ Tecnologías Utilizadas
